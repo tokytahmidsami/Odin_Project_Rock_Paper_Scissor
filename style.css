@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(122, 218, 239, 0.192);
+}
+
 #base {
     display: flex;
     flex-direction: column;
@@ -6,6 +10,7 @@
     height: 100vh;
     font-weight: bold;
     margin: 0;
+    justify-content: space-evenly;
 }
 
 div{
@@ -65,7 +70,6 @@ button{
     flex-direction: row;
     justify-content: space-around;
     padding: 0% 5% 10% 5%;
-    flex: 1 0.3 auto;
     margin: -1rem 1.5rem 1.5rem 1.5rem;
 }
 

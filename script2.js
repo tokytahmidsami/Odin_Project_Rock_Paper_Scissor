@@ -1,4 +1,4 @@
-let playerMove = 0, compMove = -8, playerScore = 0, compScore = 0, winScore = 19;
+let playerMove = 0, compMove = -8, playerScore = 0, compScore = 0, winScore = 2;
 
 //rock -> 0, paper -> 1, scissor -> 2
 
@@ -15,7 +15,7 @@ const resultMassage = document.createElement("p");
 const resultImage = document.createElement("img");
 const refreshMassage = document.createElement("p");
 
-result.style.cssText = "display: flex; flex-direction: column; height: 90vh; justify-content: space-around; align-items: center; margin: auto; background-color: rgba(122, 218, 239, 0.192); font-family: 'Brush Script MT', cursive; font-weight: bold; font-size: 2rem;";
+result.style.cssText = "display: flex; flex-direction: column; height: 90vh; justify-content: center; align-items: center; margin: auto; background-color: rgba(122, 218, 239, 0.192); font-family: 'Brush Script MT', cursive; font-weight: bold; font-size: 2rem;";
 refreshMassage.textContent = "Refresh the page to play again.";
 resultImage.style.cssText = "width: 30%; border: 2px solid black; border-radius: 10%;";
 
