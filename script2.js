@@ -1,4 +1,4 @@
-let playerMove = 0, compMove = -8, playerScore = 0, compScore = 0, winScore = 2;
+let playerMove = 0, compMove = -8, playerScore = 0, compScore = 0, winScore = 19;
 
 //rock -> 0, paper -> 1, scissor -> 2
 
