@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Rock Paper Scissors</title>
-    <script src="./script.js"></script>
+    <link href = "./style.css" rel = "stylesheet">
 </head>
 <body>
-    
+    <div id = "base">
+        <div id = "heading">
+            <p> Rock Paper Scissor </p>
+        </div>
+
+        <div id = "main">
+            <div id = "player">
+                <div id = "name">
+                    <p> YOU </p>
+                </div>
+                <div class = "hand">
+                    <img src = "./qmark.jpg" width="100%" height="100%">
+                </div>
+            </div>
+            <div id = "score">
+                <div style="width: 200%; margin-left: -48%;">
+                    <p style="font-size: 3rem; font-weight: bold;"> 20 to Win </p>
+                </div>
+                <p> SCORE: </p>
+                <div id = "show_score">
+                    <div id = "player_s"> </div>
+                    <div id = "v_line"> </div>
+                    <div id = "computer_s"> </div>
+                </div>
+                <div id = "versus"> VS </div>
+            </div>
+            <div id = "computer">
+                <div id = "name">
+                    <p> COMPUTER </p>
+                </div>
+                <div class = "hand">
+                    <img src = "./qmark.jpg", width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+
+        <div id = "move">
+            <p> Choose your next move </p>
+            <div id = "moves">
+                <button> <img id = "r" src = "./rock.jpg" width="100%"></button>
+                <button> <img id = "p" src = "./paper.jpg" width="100%"></button>
+                <button> <img id = "s" src = "./scissor.jpg" width="100%"></button>
+            </div>
+        </div>
+    </div>
+    <script src="./script2.js"></script>
 </body>
+
 </html>

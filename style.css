@@ -1,0 +1,94 @@
+#base {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(122, 218, 239, 0.192);
+    font-family: 'Brush Script MT', cursive;
+    height: 100vh;
+    font-weight: bold;
+    margin: 0;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+button{
+    width: 7rem;
+    height: 5rem;
+    border-radius: 10px;
+    margin: 1rem 1rem 1rem 1rem;
+    display: block;
+}
+
+#button{
+    margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -1.5rem;
+}
+
+#heading p{
+    color: rgb(0, 4, 62);
+    font-weight: 800;
+    font-size: 5rem; 
+    margin-top: 0.2rem;
+}
+
+#player, #computer, #score{
+    flex-direction: column;
+    flex: 1 1 auto;
+    font-size: 2em;
+}
+
+#score{
+    flex: 1 2 auto;
+    justify-content: center;
+    margin: 0 5% 0 5%;
+}
+
+#player_s, #computer_s, #v_line{
+    flex-direction: column;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+#v_line{
+    width: 3px;
+    height: 6rem;
+    background-color: black;
+    margin: 0 1rem 0 1rem;
+}
+
+#main {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0% 5% 10% 5%;
+    flex: 1 0.3 auto;
+    margin: -1rem 1.5rem 1.5rem 1.5rem;
+}
+
+#move{
+    margin-top: -10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+#image{
+    flex-direction: row;
+    justify-content: center;
+}
+
+img{
+    border-radius: 10%;
+}
+
+.hand img{
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(3, 3, 80);
+}
